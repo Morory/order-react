@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "orderManagement.app.jwtSecret",
+      "type": "java.lang.String",
+      "description": "Description for orderManagement.app.jwtSecret."
+    },
+    {
+      "name": "orderManagement.app.jwtExpirationMs",
+      "type": "java.lang.String",
+      "description": "Description for orderManagement.app.jwtExpirationMs."
+    }
+  ] }

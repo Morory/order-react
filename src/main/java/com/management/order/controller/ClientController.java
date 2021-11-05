@@ -24,7 +24,11 @@ public class ClientController {
     @GetMapping
     public ResponseEntity<List<Client>> getAllByUser(@AuthenticationPrincipal UserDetailsImpl userDetails) {
         log.info("Client List called");
+
+        System.out.println("test!");
+
         return clientService.getAllByUser(userDetails);
+
     }
 
     @PostMapping
